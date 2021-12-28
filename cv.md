@@ -35,4 +35,4 @@ function multiply(a, b){
 - Spanish - A1
 
 ### Portfolio
-- [CV](https://alinazhogal.github.io/rsschool-cv/)
+- [CV](https://alinazhogal.github.io/rsschool-cv/cv)
