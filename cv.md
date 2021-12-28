@@ -34,4 +34,5 @@ function multiply(a, b){
 - English - C1 (Diploma on Republican Olympiade)
 - Spanish - A1
 
-
+### Portfolio
+- [CV](https://alinazhogal.github.io/rsschool-cv/)
