@@ -18,13 +18,15 @@ I'm responsible, hard-working and really willing to become a professional Front-
 
 ### Code example
 [Codewars](https://www.codewars.com/kata/50654ddff44f800200000004/train/javascript)
-`function multiply(a, b){
+
+```function multiply(a, b){
   return a * b
 }
-`
+```
 
 ### Education
 *Degree:* BSUIR, 2018-2022, Electronic business economy
+
 *Courses:* [Codeacademy] (https://www.codecademy.com/), [RS School] (https://rs.school/)
 
 ### Languages
