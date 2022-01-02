@@ -1,12 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV Alina</title>
-</head>
-<body>
-  <h1>My CV</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
+    <title>CV Alina Zhogal</title>
+  </head>
+
+  <body>
+    <header>
+      <section>
+        <div class="section-container">
+          <div class="header-info">
+            <div class="header-text">
+              <h1>Alina Zhogal</h1>
+              <h3>Web-developer</h3>
+              <ul>
+                <li>Location: Minsk, Belarus</li>
+                <li>Email: alina.zhogal.00@gmail.com</li>
+                <li>
+                  Telegram: <a href="https://t.me/alinazhogal">@alinazhogal</a>
+                </li>
+              </ul>
+            </div>
+            <img
+              src="/img/photo.png"
+              alt="Profile photo"
+              width="352"
+              height="368"
+            />
+          </div>
+        </div>
+      </section>
+      <nav>
+        <div class="section-container">
+          <ul>
+            <li><a href="#about-me">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code-example">Code example</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about-me">
+        <div class="section-container">
+          <h2>About me</h2>
+          <p>
+            I'm responsible, hard-working and really willing to become a
+            professional Front-end developer. Besides, I'm a quick-learner and
+            see the meaning of life in constant self-improvement.
+          </p>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="section-container">
+          <h2>Skills</h2>
+          <div class="skills-info">
+            <div class="skills-container">
+              <h4>Web-development</h4>
+              <ul class="skills-list">
+                <li>HTML, CSS</li>
+                <li>Basic JS</li>
+                <li>OOP principles</li>
+              </ul>
+            </div>
+            <div class="skills-container">
+              <h4>Web-design</h4>
+              <ul class="skills-list">
+                <li>UI (visual) design</li>
+                <li>UX design</li>
+                <li>Figma, Adobe XD</li>
+              </ul>
+            </div>
+            <div class="skills-container">
+              <h4>Other</h4>
+              <ul class="skills-list">
+                <li>Git</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="code-example">
+        <div class="section-container">
+          <h2>Code example</h2>
+          <div class="code">
+            <code>
+              function multiply(a, b) { <br />
+              &nbsp; return a * b <br />
+              }
+            </code>
+          </div>
+        </div>
+      </section>
+      <section id="education">
+        <div class="section-container">
+          <h2>Education</h2>
+          <div class="education-container">
+            <p class="p-bold">Degree:</p>
+            <div class="education-info">
+              <span>BSUIR, Electronic business economy</span>
+              <span class="year">2018-2022</span>
+            </div>
+          </div>
+          <div class="education-container">
+            <p class="p-bold">Courses:</p>
+            <div class="education-info">
+              <span>Codeacademy</span>
+              <span class="year">2021</span>
+            </div>
+            <div class="education-info">
+              <span>RS School</span>
+              <span class="year">2021-2022</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="languages">
+        <div class="section-container">
+          <h2>Languages</h2>
+          <div class="language-info">
+            <span>English: C1 - Advanced</span>
+            <div class="language-level">
+              <img src="/img/yes.svg" alt="level-yes" />
+              <img src="/img/yes.svg" alt="level-yes" />
+              <img src="/img/yes.svg" alt="level-yes" />
+              <img src="/img/yes.svg" alt="level-yes" />
+              <img src="/img/yes.svg" alt="level-yes" />
+              <img src="/img/no.svg" alt="level-no" />
+            </div>
+          </div>
+          <div class="language-info">
+            <span>Spanish: A2 - Elementary</span>
+            <div class="language-level">
+              <img src="/img/yes.svg" alt="level-yes" />
+              <img src="/img/yes.svg" alt="level-yes" />
+              <img src="/img/no.svg" alt="level-no" />
+              <img src="/img/no.svg" alt="level-no" />
+              <img src="/img/no.svg" alt="level-no" />
+              <img src="/img/no.svg" alt="level-no" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="section-container">
+          <h2>Portfolio</h2>
+          <a
+            href="https://alinazhogal.github.io/rsschool-cv/"
+            class="project"
+            target="_blank"
+          >
+            <div class="project-info">
+              <p class="p-bold">CV</p>
+              <p>My CV - HTML/CSS</p>
+            </div>
+            <img src="/img/arrow.svg" alt="arrow" />
+          </a>
+          <a
+            href="https://alinazhogal.github.io/flowers/"
+            class="project"
+            target="_blank"
+          >
+            <div class="project-info">
+              <p class="p-bold">Flowers</p>
+              <p>Shop - HTML/CSS/JS</p>
+            </div>
+            <img src="/img/arrow.svg" alt="arrow" />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="section-container">
+        <div class="footer-info">
+          <a href="https://rs.school/js/" target="_blank"
+            ><img src="/img/rs-logo.svg" alt="rs-logo"
+          /></a>
+          <span
+            >Alina Zhogal,
+            <a href="https://github.com/alinazhogal" target="_blank"
+              >github.com/alinazhogal</a
+            >, 2022</span
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
