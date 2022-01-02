@@ -85,7 +85,7 @@ body {
    padding: 38px 240px;
  }
 
- section, nav {
+ section, nav, footer {
    padding: 40px 0px 40px;
    width: 100%;
    display: flex;
